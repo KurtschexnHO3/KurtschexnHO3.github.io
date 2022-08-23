@@ -1,18 +1,118 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Title</title>
-    <!-- Load CSS files -->
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <head>
+        <title> Diesel Machanics</title>
+        <style>
+            body {
+                background: rgb(252, 39, 7);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(241, 242, 248);
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
+    </head>
     
-    <!-- Load JavaScript files -->
-    <script src="jquery.min.js"></script>
-    <script src="index.js"></script>
-  </head>
-  
-  <body>
-    <div id='board'>
-      <div id='gameItem'></div>
-    </div>
-  </body>
+    <body>
+        <!-- All content goes here -->
+        <div id=" all-contents">
+            ...
+        </div>
+        <div> 
+
+            <nav>
+                <h1> Kurt's Diesel Shop</h1>
+                <ul>
+                    <li>
+                      <a href="index.html"> Home </a>
+                    </li>
+                    <li>
+                      <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <!-- Side section-->
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStuWI1_jMSRSVVMgmFN5mRajAw6IquiSJKEZptih9efwHCOu8OQYB0rdkXA7eK0MFWPbY:https://www.autocar.co.uk/sites/autocar.co.uk/files/slideshow_image/1-ferrari-355-engine.jpg&usqp=CAU">
+                </div>
+                    <h2> Kurt </h2>
+                    <p> Student at HHS</p>
+                    <!--Intrest section-->
+                    <div>
+                        <h3>Interests</h3>
+                        <ul>
+                            <li> Machanics </li>
+                            <li> Gaming </li>
+                            <li> Explore </li>
+                        </ul>
+                    </div>
+                    
+
+                <!-- content section-->
+                <div>
+                    <h2> ... </h2>
+                    <p> ... </p>
+                    <!-- Interests section -->
+                    <div>
+                        Working on Diesel engine
+                    </div>
+                </div>
+            </main>
+
+        </div>
+    </body>
 </html>
