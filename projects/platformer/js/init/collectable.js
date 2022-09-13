@@ -42,6 +42,7 @@
     createCollectable(type.steve, 200, 170, 6, 0.7);
     createCollectable(type.steve, 600, 300, 6, 0.7);
     createCollectable(type.steve, 300, 250, 7, 0.6)
+    createCollectable(type.kennedi, 100, 100)
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
   }
